@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T06:00:15.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="aLzWyP7uULTqRwMv82gd" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T06:06:40.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="PqkgnnNJUku158ZWCYvB" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
     <mxGraphModel dx="5134" dy="2118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,13 +21,13 @@
             <mxPoint x="420" y="519.6923076923076" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-14" value="get_loopback_flag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-14" value="get_loopback_flag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-180" y="319" as="targetPoint" />
             <mxPoint x="80" y="319" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SEk_vcrLtVBXIxyY5RiW-3" value="change_work_dir()&lt;div&gt;parse_argv(argc, argv)&lt;/div&gt;&lt;div&gt;set_oam_run_mode()&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;pthread_create()&lt;/div&gt;&lt;div&gt;get_sysled_blink_tid()&lt;/div&gt;&lt;div&gt;pthread_mutex_init()&lt;/div&gt;&lt;div&gt;get_log_mutex()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;read_version()&lt;/div&gt;&lt;div&gt;oam_init()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="SEk_vcrLtVBXIxyY5RiW-3" value="change_work_dir()&lt;div&gt;parse_argv(argc, argv)&lt;/div&gt;&lt;div&gt;set_oam_run_mode()&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;pthread_create()&lt;/div&gt;&lt;div&gt;get_sysled_blink_tid()&lt;/div&gt;&lt;div&gt;oam_sysled_blink_thread()&lt;/div&gt;&lt;div&gt;pthread_mutex_init()&lt;/div&gt;&lt;div&gt;get_log_mutex()&lt;/div&gt;&lt;div&gt;oepn_log_file()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;read_version()&lt;/div&gt;&lt;div&gt;oam_init()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="80" y="280" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="SEk_vcrLtVBXIxyY5RiW-4" value="oam_process/src/oam_process.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
@@ -67,7 +67,7 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-6" value="utils/src/oam_log.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="720" y="760" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-7" value="get_log_mutex()&lt;div&gt;open_log_file()&lt;/div&gt;&lt;div&gt;add_suffix_to_filename()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="680" y="840" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-9" value="get_log_mutex" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.006;exitY=0.374;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-7" target="SEk_vcrLtVBXIxyY5RiW-3">
@@ -102,7 +102,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-12" value="utils/src/basic_utils.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-475" y="200" width="240" height="80" as="geometry" />
+          <mxGeometry x="-460" y="159" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-15" value="get_loopback_flag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -114,6 +114,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-500" y="379" as="sourcePoint" />
             <mxPoint x="-740" y="379" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-620" y="351" />
+              <mxPoint x="-620" y="380" />
+              <mxPoint x="-740" y="380" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-59" value="get_oam_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="1S8K7_U0OwWZwSi6VsP5-58">
@@ -126,23 +131,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-67" value="get_child_process_mgr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.93;exitY=0.004;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="1S8K7_U0OwWZwSi6VsP5-66">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-67" value="get_child_process_mgr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.949;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="240" as="sourcePoint" />
+            <mxPoint x="-20" y="-212.99999999999977" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-202" y="280" />
-              <mxPoint x="-200" y="280" />
-              <mxPoint x="-200" y="240" />
-              <mxPoint x="-110" y="240" />
-              <mxPoint x="-110" y="-200" />
+              <mxPoint x="-165" y="187" />
+              <mxPoint x="-110" y="187" />
+              <mxPoint x="-110" y="-213" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-13" value="parse_config_file()&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;is_title_line()&lt;/div&gt;&lt;div&gt;parse_cfg_line_by_section_title()&lt;/div&gt;&lt;div&gt;get_section_title_idx()&lt;/div&gt;&lt;div&gt;parse_cfg_board_info()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_log_forwarder()&lt;/div&gt;&lt;div&gt;get_child_process_mgr()&lt;/div&gt;&lt;div&gt;parse_json_path_info()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_msg_req_list()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;br&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_llist()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;parse_msg_list_line_value()&lt;/div&gt;&lt;div&gt;set_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="280" width="350" height="350" as="geometry" />
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-13" value="&lt;div&gt;change_work_dir()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;parse_config_file()&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;is_title_line()&lt;/div&gt;&lt;div&gt;parse_cfg_line_by_section_title()&lt;/div&gt;&lt;div&gt;get_section_title_idx()&lt;/div&gt;&lt;div&gt;parse_cfg_board_info()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_log_forwarder()&lt;/div&gt;&lt;div&gt;get_child_process_mgr()&lt;/div&gt;&lt;div&gt;parse_json_path_info()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_msg_req_list()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;br&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_llist()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;parse_msg_list_line_value()&lt;/div&gt;&lt;div&gt;set_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-535" y="239" width="390" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-16" value="change_work_dir" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-16" value="change_work_dir" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-180" y="281" as="targetPoint" />
+            <mxPoint x="-150" y="280" as="targetPoint" />
             <mxPoint x="80" y="281" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
@@ -181,7 +186,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-55" value="parse_config_file" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-13">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-670" y="360" />
+              <mxPoint x="-670" y="336" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-22" value="&lt;div&gt;oam_init()&lt;/div&gt;init_response_router()&lt;div&gt;create_resp_router_table()&lt;/div&gt;&lt;div&gt;create_link_list()&lt;/div&gt;&lt;div&gt;pthread_mutex_init()&lt;/div&gt;&lt;div&gt;set_response_router()&lt;/div&gt;&lt;div&gt;oam_mem_init()&lt;/div&gt;&lt;div&gt;init_oam_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_aom_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_tlv_mem_info()&lt;/div&gt;&lt;div&gt;init_tlv_mem()&lt;/div&gt;&lt;div&gt;get_tag_graph_mem_info()&lt;/div&gt;&lt;div&gt;init_tag_list_mem()&lt;/div&gt;&lt;div&gt;create_p19_tag_graph()&lt;/div&gt;&lt;div&gt;parse_config_file()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-1060" y="280" width="320" height="320" as="geometry" />
@@ -363,7 +373,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-690" y="-16" />
-              <mxPoint x="-690" y="342" />
+              <mxPoint x="-690" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
