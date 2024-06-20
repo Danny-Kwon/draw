@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T07:21:25.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="D4TmF7yWK8KeKfJQdWIE" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T07:24:56.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="x4wWcPFYZZsbtP50rcIY" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
     <mxGraphModel dx="5964" dy="2549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,6 +84,18 @@
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-6" value="utils/src/oam_log.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="900" y="769" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-88" value="get_log_fp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-7" target="1S8K7_U0OwWZwSi6VsP5-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="1170" />
+              <mxPoint x="760" y="1170" />
+              <mxPoint x="760" y="1220" />
+              <mxPoint x="-610" y="1220" />
+              <mxPoint x="-610" y="660" />
+              <mxPoint x="-790" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-7" value="get_log_mutex()&lt;div&gt;open_log_file()&lt;/div&gt;&lt;div&gt;add_suffix_to_filename()&lt;/div&gt;&lt;div&gt;get_log_fp()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="860" y="849" width="320" height="320" as="geometry" />
@@ -244,11 +256,6 @@
               <mxPoint x="730" y="1190" />
               <mxPoint x="730" y="1130" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-87" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1S8K7_U0OwWZwSi6VsP5-86">
-          <mxGeometry x="0.9235" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-22" value="&lt;div&gt;oam_init()&lt;/div&gt;init_response_router()&lt;div&gt;create_resp_router_table()&lt;/div&gt;&lt;div&gt;create_link_list()&lt;/div&gt;&lt;div&gt;set_response_router()&lt;/div&gt;&lt;div&gt;oam_mem_init()&lt;/div&gt;&lt;div&gt;init_oam_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_aom_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_tlv_mem_info()&lt;/div&gt;&lt;div&gt;init_tlv_mem()&lt;/div&gt;&lt;div&gt;get_tag_graph_mem_info()&lt;/div&gt;&lt;div&gt;init_tag_list_mem()&lt;/div&gt;&lt;div&gt;create_p19_tag_graph()&lt;/div&gt;&lt;div&gt;parse_config_file()&lt;/div&gt;&lt;div&gt;oam_system()&lt;/div&gt;&lt;div&gt;get_log_fp()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
