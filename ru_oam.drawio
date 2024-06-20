@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T05:59:09.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jAXXtxuKD3CkZPzZbgDo" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T06:00:15.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="aLzWyP7uULTqRwMv82gd" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
     <mxGraphModel dx="5134" dy="2118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
             <mxPoint x="80" y="319" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SEk_vcrLtVBXIxyY5RiW-3" value="change_work_dir()&lt;div&gt;parse_argv(argc, argv)&lt;/div&gt;&lt;div&gt;set_oam_run_mode(OAM_RUN_TEST_MODE)&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;pthread_create()&lt;/div&gt;&lt;div&gt;get_sysled_blink_tid()&lt;/div&gt;&lt;div&gt;pthread_mutex_init()&lt;/div&gt;&lt;div&gt;get_log_mutex()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;read_version()&lt;/div&gt;&lt;div&gt;oam_init()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="SEk_vcrLtVBXIxyY5RiW-3" value="change_work_dir()&lt;div&gt;parse_argv(argc, argv)&lt;/div&gt;&lt;div&gt;set_oam_run_mode()&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;pthread_create()&lt;/div&gt;&lt;div&gt;get_sysled_blink_tid()&lt;/div&gt;&lt;div&gt;pthread_mutex_init()&lt;/div&gt;&lt;div&gt;get_log_mutex()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;read_version()&lt;/div&gt;&lt;div&gt;oam_init()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="80" y="280" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="SEk_vcrLtVBXIxyY5RiW-4" value="oam_process/src/oam_process.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
@@ -39,7 +39,7 @@
             <mxPoint x="400" y="376" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SEk_vcrLtVBXIxyY5RiW-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="SEk_vcrLtVBXIxyY5RiW-5" value="set_oam_run_mode()&lt;div&gt;get_oam_run_mode()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="680" y="280" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="SEk_vcrLtVBXIxyY5RiW-7" value="get_oam_run_mode" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
