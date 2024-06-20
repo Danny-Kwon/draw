@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T04:00:38.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pqExyGPMlAP1D2YUKMeW" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T04:13:41.931Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0aGJhc0S5htkG0nnNWmH" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
-    <mxGraphModel dx="3115" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3942" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,7 +150,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-22" value="init_response_router()&lt;div&gt;create_resp_router_table()&lt;/div&gt;&lt;div&gt;create_link_list()&lt;/div&gt;&lt;div&gt;pthread_mutex_init()&lt;/div&gt;&lt;div&gt;set_response_router()&lt;/div&gt;&lt;div&gt;oam_mem_init()&lt;/div&gt;&lt;div&gt;init_oam_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_aom_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_tlv_mem_info()&lt;/div&gt;&lt;div&gt;init_tlv_mem()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-22" value="init_response_router()&lt;div&gt;create_resp_router_table()&lt;/div&gt;&lt;div&gt;create_link_list()&lt;/div&gt;&lt;div&gt;pthread_mutex_init()&lt;/div&gt;&lt;div&gt;set_response_router()&lt;/div&gt;&lt;div&gt;oam_mem_init()&lt;/div&gt;&lt;div&gt;init_oam_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_aom_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_tlv_mem_info()&lt;/div&gt;&lt;div&gt;init_tlv_mem()&lt;/div&gt;&lt;div&gt;get_tag_graph_mem_info()&lt;/div&gt;&lt;div&gt;init_tag_list_mem()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-1060" y="280" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-23" value="oam_init" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.015;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SEk_vcrLtVBXIxyY5RiW-3" target="1S8K7_U0OwWZwSi6VsP5-22">
@@ -178,8 +178,31 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-28" value="msg_enc_dec/tlv_utils/src/tlv_operation.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-1060" y="760" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-29" value="&lt;div&gt;get_tlv_mem_mgr()&lt;/div&gt;&lt;div&gt;init_key_list_mem()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-35" value="init_key_list_mem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1060" y="959" as="sourcePoint" />
+            <mxPoint x="-1240" y="959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-37" value="get_key_list_mem_mgr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1230" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-29" value="&lt;div&gt;get_tlv_mem_mgr()&lt;/div&gt;&lt;div&gt;init_key_list_mem()&lt;/div&gt;&lt;div&gt;tlv_mem_reset()&lt;/div&gt;&lt;div&gt;get_tlv_mem_mgr()&lt;/div&gt;&lt;div&gt;get_key_list_mem_mgr()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-1060" y="840" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-33" value="msg_enc_dec/tlv_utils/src/key_list&lt;span style=&quot;background-color: initial;&quot;&gt;.c&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="760" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-34" value="&lt;div&gt;init_key_list_mem()&lt;/div&gt;&lt;div&gt;get_key_list_mem_mgr()&lt;/div&gt;&lt;div&gt;get_key_list_mem_mgr()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="840" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-38" value="msg_enc_dec/api_msg_proc/src/tag_utils.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2060" y="200" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-39" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2060" y="280" width="320" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
