@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T08:07:56.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QdI5RJPUgd8G7-nIGFMd" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T08:20:39.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="A1dT1FyjN2NMtSoWr_yB" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
-    <mxGraphModel dx="5395" dy="2253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5556" dy="2337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,14 +198,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-59" value="get_oam_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="1S8K7_U0OwWZwSi6VsP5-58">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-59" value="get_oam_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="1S8K7_U0OwWZwSi6VsP5-58">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-480" y="230" as="targetPoint" />
             <mxPoint x="-510" y="280" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-535" y="280" />
               <mxPoint x="-640" y="280" />
-              <mxPoint x="-640" y="18" />
+              <mxPoint x="-640" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -214,9 +213,7 @@
             <mxPoint x="-150" y="230" as="sourcePoint" />
             <mxPoint x="-20" y="-212.99999999999977" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-133" y="90" />
-              <mxPoint x="-110" y="90" />
-              <mxPoint x="-110" y="-213" />
+              <mxPoint x="-140" y="-213" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -232,13 +229,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-106" value="get_json_file_path" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="1S8K7_U0OwWZwSi6VsP5-102">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0011" relative="1" as="geometry">
             <mxPoint x="-535" y="390" as="sourcePoint" />
             <mxPoint x="-690" y="-290" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-780" y="390" />
-              <mxPoint x="-780" y="-330" />
+              <mxPoint x="-780" y="-349" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-13" value="&lt;div&gt;change_work_dir()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;parse_config_file()&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;is_title_line()&lt;/div&gt;&lt;div&gt;parse_cfg_line_by_section_title()&lt;/div&gt;&lt;div&gt;get_section_title_idx()&lt;/div&gt;&lt;div&gt;parse_cfg_board_info()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_log_forwarder()&lt;/div&gt;&lt;div&gt;get_child_process_mgr()&lt;/div&gt;&lt;div&gt;parse_json_path_info()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_msg_req_list()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;br&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_llist()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;parse_msg_list_line_value()&lt;/div&gt;&lt;div&gt;set_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -524,13 +522,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-116" value="get_ru_init_req_key_table" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-960" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-630" y="20" />
+              <mxPoint x="-630" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_key_table()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-570" y="-130" width="242" height="242" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-64" value="get_oam_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-690" y="-16" />
+              <mxPoint x="-690" y="80" />
               <mxPoint x="-690" y="290" />
             </Array>
           </mxGeometry>
@@ -649,6 +656,20 @@
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-109" value="get_ru_init_req_storage()" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-710" y="-920" width="242" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-114" value="utils/src/oam_msg_json_parse.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1214" y="-210" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-117" value="get_ru_init_req_key_table" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-115" target="1S8K7_U0OwWZwSi6VsP5-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-760" y="50" />
+              <mxPoint x="-760" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-115" value="get_ru_init_req_key_table()" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1214" y="-130" width="242" height="242" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
