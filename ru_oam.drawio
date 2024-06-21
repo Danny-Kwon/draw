@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T01:43:14.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WY9okQJhsBKm-S_avUsx" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T01:46:25.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ATu8vxf-qieDACFbSDAd" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
     <mxGraphModel dx="6791" dy="3718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -678,7 +678,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_key_table()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;do_config_sfp()&lt;/div&gt;&lt;div&gt;get_oam_config_board_type()&lt;/div&gt;&lt;div&gt;get_sfp_i2c_addr()&lt;/div&gt;&lt;div&gt;get_sfp_cfg_setting()&lt;/div&gt;&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;init_time_sync()&lt;/div&gt;&lt;div&gt;get_ru_sw_config_req_storage()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_key_table()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;do_config_sfp()&lt;/div&gt;&lt;div&gt;get_oam_config_board_type()&lt;/div&gt;&lt;div&gt;get_sfp_i2c_addr()&lt;/div&gt;&lt;div&gt;get_sfp_cfg_setting()&lt;/div&gt;&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;init_time_sync()&lt;/div&gt;&lt;div&gt;get_ru_sw_config_req_storage()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;read_sync_config_file()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="-450" width="242" height="562" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-64" value="get_oam_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-13">
@@ -700,7 +700,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-66" value="get_child_process_mgr()&lt;div&gt;oam_execute_child_process()&lt;/div&gt;&lt;div&gt;child_process_main()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;wait_child_process_exit()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-66" value="get_child_process_mgr()&lt;div&gt;oam_execute_child_process()&lt;/div&gt;&lt;div&gt;child_process_main()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;wait_child_process_exit()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;read_sync_config_file()&lt;/div&gt;&lt;div&gt;update_ptp_sync_config()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-280" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-68" value="get_child_process_mgr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-66" target="1S8K7_U0OwWZwSi6VsP5-13">
