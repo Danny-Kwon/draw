@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T01:08:31.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="r6W4UtsltQXKb6FCDhYL" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T01:30:09.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pJooSxfycY_nQBdfWnkI" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
-    <mxGraphModel dx="5961" dy="2118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8309" dy="4507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="235" y="60" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SEk_vcrLtVBXIxyY5RiW-2" value="sources/picocom/ru_oam/source_code/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="-1320" y="-560" width="280" height="60" as="geometry" />
+          <mxGeometry x="-2900" y="-839" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SEk_vcrLtVBXIxyY5RiW-6" value="set_oam_run_mode" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -105,7 +105,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-142" value="get_send_msg_id_list_len&lt;div&gt;get_send_msg_id_list&lt;/div&gt;&lt;div&gt;do_send_oam_msg&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-142" value="get_send_msg_id_list_len&lt;div&gt;get_send_msg_id_list&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="930" y="671" as="sourcePoint" />
             <mxPoint x="-110" y="671" as="targetPoint" />
@@ -113,9 +113,20 @@
               <mxPoint x="410" y="671" />
               <mxPoint x="410" y="671" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SEk_vcrLtVBXIxyY5RiW-5" value="set_oam_run_mode()&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;oam_process_start()&lt;/div&gt;&lt;div&gt;do_rfic_init()&lt;/div&gt;&lt;div&gt;retrieve_transceiver_modules_opt_state()&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;process_bar_handler()&lt;/div&gt;&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;get_log_mutex()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list()&lt;/div&gt;&lt;div&gt;do_send_oam_msg()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-149" value="do_send_oam_msg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SEk_vcrLtVBXIxyY5RiW-5" target="1S8K7_U0OwWZwSi6VsP5-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="700" />
+              <mxPoint x="1310" y="1310" />
+              <mxPoint x="-680" y="1310" />
+              <mxPoint x="-680" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEk_vcrLtVBXIxyY5RiW-5" value="set_oam_run_mode()&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;oam_process_start()&lt;/div&gt;&lt;div&gt;do_rfic_init()&lt;/div&gt;&lt;div&gt;retrieve_transceiver_modules_opt_state()&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;process_bar_handler()&lt;/div&gt;&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;get_log_mutex()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list()&lt;/div&gt;&lt;div&gt;do_send_oam_msg()&lt;/div&gt;&lt;div&gt;init_time_sync()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="240" width="320" height="518" as="geometry" />
         </mxCell>
         <mxCell id="SEk_vcrLtVBXIxyY5RiW-7" value="get_oam_run_mode" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
@@ -250,13 +261,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-106" value="get_json_file_path&lt;div&gt;parse_json_file&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="1S8K7_U0OwWZwSi6VsP5-102">
-          <mxGeometry x="0.5655" relative="1" as="geometry">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-106" value="get_json_file_path" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="1S8K7_U0OwWZwSi6VsP5-102">
+          <mxGeometry x="0.5271" relative="1" as="geometry">
             <mxPoint x="-535" y="390" as="sourcePoint" />
             <mxPoint x="-690" y="-290" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-780" y="390" />
-              <mxPoint x="-780" y="-349" />
+              <mxPoint x="-760" y="390" />
+              <mxPoint x="-760" y="-210" />
+              <mxPoint x="-1080" y="-210" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -280,7 +292,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-143" value="get_send_msg_id_list_len&lt;div&gt;get_send_msg_id_list&lt;/div&gt;&lt;div&gt;do_send_oam_msg&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="SEk_vcrLtVBXIxyY5RiW-5">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-143" value="get_send_msg_id_list_len&lt;div&gt;get_send_msg_id_list&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="SEk_vcrLtVBXIxyY5RiW-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="720" />
@@ -288,7 +300,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-13" value="&lt;div&gt;change_work_dir()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;parse_config_file()&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;is_title_line()&lt;/div&gt;&lt;div&gt;parse_cfg_line_by_section_title()&lt;/div&gt;&lt;div&gt;get_section_title_idx()&lt;/div&gt;&lt;div&gt;parse_cfg_board_info()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_log_forwarder()&lt;/div&gt;&lt;div&gt;get_child_process_mgr()&lt;/div&gt;&lt;div&gt;parse_json_path_info()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_msg_req_list()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;br&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_llist()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;parse_msg_list_line_value()&lt;/div&gt;&lt;div&gt;set_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_oam_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;do_put_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;pcsc_open_channel_fake()&lt;/div&gt;&lt;div&gt;pcsc_open_channel()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_free_one_mbuf()&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_oam_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;do_put_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;pcsc_open_channel_fake()&lt;/div&gt;&lt;div&gt;pcsc_open_channel()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_free_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;do_send_oam_msg()&lt;/div&gt;&lt;div&gt;get_send_msg_register_table_len()&lt;/div&gt;&lt;div&gt;get_send_msg_register_table()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-13" value="&lt;div&gt;change_work_dir()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;parse_config_file()&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;is_title_line()&lt;/div&gt;&lt;div&gt;parse_cfg_line_by_section_title()&lt;/div&gt;&lt;div&gt;get_section_title_idx()&lt;/div&gt;&lt;div&gt;parse_cfg_board_info()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_log_forwarder()&lt;/div&gt;&lt;div&gt;get_child_process_mgr()&lt;/div&gt;&lt;div&gt;parse_json_path_info()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_msg_req_list()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;br&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_llist()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;parse_msg_list_line_value()&lt;/div&gt;&lt;div&gt;set_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_oam_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;do_put_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;pcsc_open_channel_fake()&lt;/div&gt;&lt;div&gt;pcsc_open_channel()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_free_one_mbuf()&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_oam_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;do_put_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;pcsc_open_channel_fake()&lt;/div&gt;&lt;div&gt;pcsc_open_channel()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_free_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-580" y="179" width="470" height="951" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-16" value="change_work_dir" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1S8K7_U0OwWZwSi6VsP5-13">
@@ -298,21 +310,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-18" value="utils/src/version.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-960" y="1140" width="240" height="80" as="geometry" />
+          <mxGeometry x="-1016" y="1243" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-19" value="read_version()" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="1220" width="320" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-20" value="read_version" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="1S8K7_U0OwWZwSi6VsP5-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="440" as="sourcePoint" />
-            <mxPoint x="-180" y="949.0800000000002" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-40" y="440" />
-              <mxPoint x="-40" y="1170" />
-              <mxPoint x="-700" y="1170" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="-1056" y="1323" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-21" value="utils/src/oam_utils.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-1490" y="336" width="150" height="60" as="geometry" />
@@ -348,13 +349,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-85" value="oam_system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-81">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.1144" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-840" y="580" />
               <mxPoint x="-840" y="-620" />
               <mxPoint x="860" y="-620" />
               <mxPoint x="860" y="-100" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-86" value="get_log_fp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-7">
@@ -372,9 +374,8 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-122" value="create_router_item&lt;div&gt;send_req_block&lt;/div&gt;&lt;div&gt;send_req_unblock&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-109">
           <mxGeometry x="-0.0271" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1160" y="380" />
-              <mxPoint x="-900" y="380" />
-              <mxPoint x="-900" y="-870" />
+              <mxPoint x="-1280" y="-280" />
+              <mxPoint x="-1500" y="-280" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -415,7 +416,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-22" value="&lt;div&gt;oam_init()&lt;/div&gt;init_response_router()&lt;div&gt;create_resp_router_table()&lt;/div&gt;&lt;div&gt;create_link_list()&lt;/div&gt;&lt;div&gt;set_response_router()&lt;/div&gt;&lt;div&gt;oam_mem_init()&lt;/div&gt;&lt;div&gt;init_oam_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_aom_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_tlv_mem_info()&lt;/div&gt;&lt;div&gt;init_tlv_mem()&lt;/div&gt;&lt;div&gt;get_tag_graph_mem_info()&lt;/div&gt;&lt;div&gt;init_tag_list_mem()&lt;/div&gt;&lt;div&gt;create_p19_tag_graph()&lt;/div&gt;&lt;div&gt;parse_config_file()&lt;/div&gt;&lt;div&gt;oam_system()&lt;/div&gt;&lt;div&gt;get_log_fp()&lt;/div&gt;&lt;div&gt;do_rfic_init()&lt;/div&gt;&lt;div&gt;create_router_item()&lt;/div&gt;&lt;div&gt;send_req_block()&lt;/div&gt;&lt;div&gt;get_response_router()&lt;/div&gt;&lt;div&gt;add_item_to_router_list()&lt;/div&gt;&lt;div&gt;link_list_insert_tail()&lt;/div&gt;&lt;div&gt;send_req_unblock()&lt;/div&gt;&lt;div&gt;oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;oam_one_put_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;wait_oam_response()&lt;/div&gt;&lt;div&gt;delete_item_from_router_list()&lt;/div&gt;&lt;div&gt;link_list_delete_by_elem()&lt;/div&gt;&lt;div&gt;detroy_router_item()&lt;/div&gt;&lt;div&gt;send_req_unblock()&lt;/div&gt;&lt;div&gt;&lt;div&gt;oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;oam_one_put_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-147" value="parse_json_file" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-102">
+          <mxGeometry x="0.5432" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1190" y="-900" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-150" value="do_send_oam_msg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="SEk_vcrLtVBXIxyY5RiW-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-700" y="1120" />
+              <mxPoint x="-700" y="1340" />
+              <mxPoint x="1340" y="1340" />
+              <mxPoint x="1340" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-22" value="&lt;div&gt;oam_init()&lt;/div&gt;init_response_router()&lt;div&gt;create_resp_router_table()&lt;/div&gt;&lt;div&gt;create_link_list()&lt;/div&gt;&lt;div&gt;set_response_router()&lt;/div&gt;&lt;div&gt;oam_mem_init()&lt;/div&gt;&lt;div&gt;init_oam_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_aom_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_tlv_mem_info()&lt;/div&gt;&lt;div&gt;init_tlv_mem()&lt;/div&gt;&lt;div&gt;get_tag_graph_mem_info()&lt;/div&gt;&lt;div&gt;init_tag_list_mem()&lt;/div&gt;&lt;div&gt;create_p19_tag_graph()&lt;/div&gt;&lt;div&gt;parse_config_file()&lt;/div&gt;&lt;div&gt;oam_system()&lt;/div&gt;&lt;div&gt;get_log_fp()&lt;/div&gt;&lt;div&gt;do_rfic_init()&lt;/div&gt;&lt;div&gt;create_router_item()&lt;/div&gt;&lt;div&gt;send_req_block()&lt;/div&gt;&lt;div&gt;get_response_router()&lt;/div&gt;&lt;div&gt;add_item_to_router_list()&lt;/div&gt;&lt;div&gt;link_list_insert_tail()&lt;/div&gt;&lt;div&gt;send_req_unblock()&lt;/div&gt;&lt;div&gt;oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;oam_one_put_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;wait_oam_response()&lt;/div&gt;&lt;div&gt;delete_item_from_router_list()&lt;/div&gt;&lt;div&gt;link_list_delete_by_elem()&lt;/div&gt;&lt;div&gt;detroy_router_item()&lt;/div&gt;&lt;div&gt;send_req_unblock()&lt;/div&gt;&lt;div&gt;&lt;div&gt;oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;oam_one_put_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;do_send_oam_msg()&lt;/div&gt;&lt;div&gt;get_send_msg_register_table_len()&lt;/div&gt;&lt;div&gt;get_send_msg_register_table()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1490" y="397" width="459" height="733" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-23" value="oam_init" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SEk_vcrLtVBXIxyY5RiW-3" target="1S8K7_U0OwWZwSi6VsP5-22">
@@ -617,7 +636,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-57" value="utils/src/oam_config.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-568" y="-210" width="168" height="80" as="geometry" />
+          <mxGeometry x="-560" y="-530" width="168" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-100" value="send_sfp_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="SEk_vcrLtVBXIxyY5RiW-5">
           <mxGeometry relative="1" as="geometry">
@@ -650,12 +669,13 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-119" value="send_i2c_write_req_wait_resp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-109">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-330" y="-799" />
+              <mxPoint x="-330" y="-800" />
+              <mxPoint x="-1400" y="-800" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_key_table()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;do_config_sfp()&lt;/div&gt;&lt;div&gt;get_oam_config_board_type()&lt;/div&gt;&lt;div&gt;get_sfp_i2c_addr()&lt;/div&gt;&lt;div&gt;get_sfp_cfg_setting()&lt;/div&gt;&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="-130" width="242" height="242" as="geometry" />
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_key_table()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;do_config_sfp()&lt;/div&gt;&lt;div&gt;get_oam_config_board_type()&lt;/div&gt;&lt;div&gt;get_sfp_i2c_addr()&lt;/div&gt;&lt;div&gt;get_sfp_cfg_setting()&lt;/div&gt;&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="-450" width="242" height="562" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-64" value="get_oam_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry relative="1" as="geometry">
@@ -710,13 +730,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-84" value="oam_system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-81" target="1S8K7_U0OwWZwSi6VsP5-22">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.1138" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="890" y="-120" />
               <mxPoint x="890" y="-650" />
               <mxPoint x="-860" y="-650" />
               <mxPoint x="-860" y="560" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-81" value="wait_pc802r_init_ok()&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;oam_system()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -738,7 +759,7 @@
           <mxGeometry x="1520" y="438" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-101" value="utils/src/json2object.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-673" y="-550" width="168" height="80" as="geometry" />
+          <mxGeometry x="-1059" y="-1200" width="168" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-103" value="parse_json_file" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-102" target="1S8K7_U0OwWZwSi6VsP5-58">
           <mxGeometry relative="1" as="geometry">
@@ -747,41 +768,51 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-105" value="get_json_file_path&lt;div&gt;parse_json_file&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-102" target="1S8K7_U0OwWZwSi6VsP5-13">
-          <mxGeometry x="-0.6047" relative="1" as="geometry">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-105" value="get_json_file_path" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-102" target="1S8K7_U0OwWZwSi6VsP5-13">
+          <mxGeometry x="-0.5457" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-740" y="-290" />
-              <mxPoint x="-740" y="380" />
+              <mxPoint x="-1030" y="-240" />
+              <mxPoint x="-730" y="-240" />
+              <mxPoint x="-730" y="380" />
             </Array>
-            <mxPoint as="offset" />
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-110" value="get_ru_init_req_storage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-102" target="1S8K7_U0OwWZwSi6VsP5-109">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-750" y="-420" />
-              <mxPoint x="-750" y="-700" />
+              <mxPoint x="-1110" y="-990" />
+              <mxPoint x="-1110" y="-990" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-148" value="parse_json_file" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-102" target="1S8K7_U0OwWZwSi6VsP5-22">
+          <mxGeometry x="-0.5615" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1220" y="-930" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-102" value="&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;read_json_file()&lt;/div&gt;&lt;div&gt;parse_json_string()&lt;/div&gt;&lt;div&gt;vlan_check()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;read_json_file()&lt;/div&gt;&lt;div&gt;parse_json_string()&lt;/div&gt;&lt;div&gt;vlan_check()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="-470" width="242" height="242" as="geometry" />
+          <mxGeometry x="-1096" y="-1120" width="242" height="242" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-108" value="utils/src/sub_msg_assemble.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-704" y="-1010" width="230" height="80" as="geometry" />
+          <mxGeometry x="-1534" y="-1161" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-111" value="get_ru_init_req_storage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-109" target="1S8K7_U0OwWZwSi6VsP5-102">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-780" y="-760" />
-              <mxPoint x="-780" y="-400" />
+              <mxPoint x="-1100" y="-970" />
+              <mxPoint x="-1100" y="-970" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-120" value="send_i2c_write_req_wait_resp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-109" target="1S8K7_U0OwWZwSi6VsP5-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-380" y="-770" />
+              <mxPoint x="-1440" y="-780" />
+              <mxPoint x="-380" y="-780" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -790,18 +821,17 @@
             <mxPoint x="-740" y="-890" as="sourcePoint" />
             <mxPoint x="-949.9999999999991" y="290" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-950" y="-890" />
-              <mxPoint x="-950" y="350" />
-              <mxPoint x="-1190" y="350" />
+              <mxPoint x="-1530" y="-221" />
+              <mxPoint x="-1310" y="-221" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-109" value="get_ru_init_req_storage()&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;send_req_wait_resp()&lt;/div&gt;&lt;div&gt;create_router_item()&lt;/div&gt;&lt;div&gt;send_req_block()&lt;/div&gt;&lt;div&gt;destroy_router_item()&lt;/div&gt;&lt;div&gt;send_req_unblock()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="-930" width="242" height="242" as="geometry" />
+          <mxGeometry x="-1540" y="-1081" width="242" height="242" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-114" value="utils/src/oam_msg_json_parse.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="-210" width="230" height="80" as="geometry" />
+          <mxGeometry x="-1710" y="-210" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-117" value="get_ru_init_req_key_table" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-115" target="1S8K7_U0OwWZwSi6VsP5-58">
           <mxGeometry relative="1" as="geometry">
@@ -812,7 +842,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-115" value="get_ru_init_req_key_table()" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="-130" width="242" height="242" as="geometry" />
+          <mxGeometry x="-1710" y="-130" width="242" height="242" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-138" value="read_version" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="1S8K7_U0OwWZwSi6VsP5-19">
           <mxGeometry relative="1" as="geometry">
@@ -821,7 +851,7 @@
             <Array as="points">
               <mxPoint x="-40" y="440" />
               <mxPoint x="-40" y="1170" />
-              <mxPoint x="-700" y="1170" />
+              <mxPoint x="-760" y="1170" />
             </Array>
           </mxGeometry>
         </mxCell>
