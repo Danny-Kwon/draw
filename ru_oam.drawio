@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T02:20:40.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="NVA8aqE2ZdU6RDOR5Wh2" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T02:35:41.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="5M8ejpOkdU7JSEtzHTVj" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
     <mxGraphModel dx="6383" dy="3506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -257,8 +257,8 @@
             <mxPoint x="330" y="-370" as="targetPoint" />
             <mxPoint x="-167.5" y="230" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-169" y="-430" />
-              <mxPoint x="380" y="-430" />
+              <mxPoint x="-169" y="-530" />
+              <mxPoint x="380" y="-530" />
               <mxPoint x="380" y="-210" />
             </Array>
             <mxPoint x="1" as="offset" />
@@ -681,7 +681,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-154" value="get_oam_sync_mgmt_ctx&lt;div&gt;oam_ptp_child_mgmt&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-66">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-154" value="get_oam_sync_mgmt_ctx&lt;div&gt;oam_ptp_child_mgmt&lt;/div&gt;&lt;div&gt;oam_phc_handler&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-66">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-250" y="-230" />
@@ -689,7 +689,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_key_table()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;do_config_sfp()&lt;/div&gt;&lt;div&gt;get_oam_config_board_type()&lt;/div&gt;&lt;div&gt;get_sfp_i2c_addr()&lt;/div&gt;&lt;div&gt;get_sfp_cfg_setting()&lt;/div&gt;&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;init_time_sync()&lt;/div&gt;&lt;div&gt;get_ru_sw_config_req_storage()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;read_sync_config_file()&lt;/div&gt;&lt;div&gt;oam_ptp_child_mgmt()&lt;/div&gt;&lt;div&gt;oam_set_initial_sync_state_process()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;get_oru_state_num()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_key_table()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;do_config_sfp()&lt;/div&gt;&lt;div&gt;get_oam_config_board_type()&lt;/div&gt;&lt;div&gt;get_sfp_i2c_addr()&lt;/div&gt;&lt;div&gt;get_sfp_cfg_setting()&lt;/div&gt;&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;init_time_sync()&lt;/div&gt;&lt;div&gt;get_ru_sw_config_req_storage()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;read_sync_config_file()&lt;/div&gt;&lt;div&gt;oam_ptp_child_mgmt()&lt;/div&gt;&lt;div&gt;oam_set_initial_sync_state_process()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;get_oru_state_num()&lt;/div&gt;&lt;div&gt;oam_phc_handler()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="-450" width="242" height="562" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-64" value="get_oam_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-13">
@@ -701,13 +701,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-65" value="oam_process/src/oam_child_process.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="-421" width="290" height="80" as="geometry" />
+          <mxGeometry x="-5" y="-510" width="290" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-155" value="get_oam_sync_mgmt_ctx&lt;div&gt;oam_ptp_child_mgmt&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-66" target="1S8K7_U0OwWZwSi6VsP5-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-180" y="-190" />
-              <mxPoint x="-180" y="-190" />
+              <mxPoint x="-190" y="-130" />
+              <mxPoint x="-190" y="-130" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -720,8 +720,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-66" value="get_child_process_mgr()&lt;div&gt;oam_execute_child_process()&lt;/div&gt;&lt;div&gt;child_process_main()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;wait_child_process_exit()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;read_sync_config_file()&lt;/div&gt;&lt;div&gt;update_ptp_sync_config()&lt;/div&gt;&lt;div&gt;oam_ptp_child_mgmt()&lt;/div&gt;&lt;div&gt;get_child_process_mgr()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;oam_spawn_ptp_child_process()&lt;/div&gt;&lt;div&gt;get_splane_vlan_id()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;read_sync_config_file()&lt;/div&gt;&lt;div&gt;oam_ptp_status_monitor()&lt;/div&gt;&lt;div&gt;get_ptp_sync_status()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;get_ptp_offset_from_master()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-340" width="320" height="380" as="geometry" />
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-66" value="get_child_process_mgr()&lt;div&gt;oam_execute_child_process()&lt;/div&gt;&lt;div&gt;child_process_main()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;wait_child_process_exit()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;read_sync_config_file()&lt;/div&gt;&lt;div&gt;update_ptp_sync_config()&lt;/div&gt;&lt;div&gt;oam_ptp_child_mgmt()&lt;/div&gt;&lt;div&gt;get_child_process_mgr()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;oam_spawn_ptp_child_process()&lt;/div&gt;&lt;div&gt;get_splane_vlan_id()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;read_sync_config_file()&lt;/div&gt;&lt;div&gt;oam_ptp_status_monitor()&lt;/div&gt;&lt;div&gt;get_ptp_sync_status()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;get_ptp_offset_from_master()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;oam_phc_handler()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;&lt;div&gt;get_oam_phc_proc_status()&lt;/div&gt;&lt;div&gt;oam_phc_monitor()&lt;/div&gt;&lt;div&gt;oam_phc_process_onoff()&lt;/div&gt;&lt;div&gt;oam_phc_process_onoff()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-430" width="320" height="470" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-68" value="get_child_process_mgr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-66" target="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry relative="1" as="geometry">
@@ -744,8 +744,8 @@
             <mxPoint x="-202.96000000000038" y="215.00000000000009" as="targetPoint" />
             <Array as="points">
               <mxPoint x="400" y="-260" />
-              <mxPoint x="400" y="-460" />
-              <mxPoint x="-203" y="-460" />
+              <mxPoint x="400" y="-550" />
+              <mxPoint x="-203" y="-550" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -757,8 +757,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="800" y="-80" />
-              <mxPoint x="800" y="-510" />
-              <mxPoint x="-240" y="-510" />
+              <mxPoint x="800" y="-590" />
+              <mxPoint x="-240" y="-590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -779,8 +779,8 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-83" value="get_loopback_flag()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="1S8K7_U0OwWZwSi6VsP5-81">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-220" y="-490" />
-              <mxPoint x="780" y="-490" />
+              <mxPoint x="-220" y="-570" />
+              <mxPoint x="780" y="-570" />
               <mxPoint x="780" y="-60" />
             </Array>
           </mxGeometry>
