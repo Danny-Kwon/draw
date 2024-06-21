@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T04:23:53.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Zdf4SuG1ENjRG_jEfiLM" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T04:26:12.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="uTovjDRVuVfx-n3ZURA_" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
-    <mxGraphModel dx="7057" dy="3856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6083" dy="3350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SEk_vcrLtVBXIxyY5RiW-3" value="change_work_dir()&lt;div&gt;parse_argv(argc, argv)&lt;/div&gt;&lt;div&gt;set_oam_run_mode()&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;pthread_create()&lt;/div&gt;&lt;div&gt;get_sysled_blink_tid()&lt;/div&gt;&lt;div&gt;oam_sysled_blink_thread()&lt;/div&gt;&lt;div&gt;get_log_mutex()&lt;/div&gt;&lt;div&gt;oepn_log_file()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;read_version()&lt;/div&gt;&lt;div&gt;oam_init()&lt;/div&gt;&lt;div&gt;oam_process_channel_init()&lt;/div&gt;&lt;div&gt;oam_execute_child_process()&lt;/div&gt;&lt;div&gt;oam_process_start()&lt;/div&gt;&lt;div&gt;wait_pc802r_init_ok()&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;oam_led_control()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-164" value="conn_to_netconf_ds" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SEk_vcrLtVBXIxyY5RiW-3" target="1S8K7_U0OwWZwSi6VsP5-81">
+          <mxGeometry x="-0.4902" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="180" />
+              <mxPoint x="850" y="10" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEk_vcrLtVBXIxyY5RiW-3" value="change_work_dir()&lt;div&gt;parse_argv(argc, argv)&lt;/div&gt;&lt;div&gt;set_oam_run_mode()&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;pthread_create()&lt;/div&gt;&lt;div&gt;get_sysled_blink_tid()&lt;/div&gt;&lt;div&gt;oam_sysled_blink_thread()&lt;/div&gt;&lt;div&gt;get_log_mutex()&lt;/div&gt;&lt;div&gt;oepn_log_file()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;read_version()&lt;/div&gt;&lt;div&gt;oam_init()&lt;/div&gt;&lt;div&gt;oam_process_channel_init()&lt;/div&gt;&lt;div&gt;oam_execute_child_process()&lt;/div&gt;&lt;div&gt;oam_process_start()&lt;/div&gt;&lt;div&gt;wait_pc802r_init_ok()&lt;/div&gt;&lt;div&gt;get_oam_run_mode()&lt;/div&gt;&lt;div&gt;oam_led_control()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;conn_to_netconf_ds()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="80" y="140" width="510" height="510" as="geometry" />
         </mxCell>
         <mxCell id="SEk_vcrLtVBXIxyY5RiW-4" value="oam_process/src/oam_process.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
@@ -797,7 +806,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-81" value="wait_pc802r_init_ok()&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;oam_system()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-165" value="conn_to_netconf_ds" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-81" target="SEk_vcrLtVBXIxyY5RiW-3">
+          <mxGeometry x="0.451" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="30" />
+              <mxPoint x="870" y="200" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-81" value="wait_pc802r_init_ok()&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;oam_system()&lt;/div&gt;&lt;div&gt;conn_to_open_netconf_ds()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="930" y="-280" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-83" value="get_loopback_flag()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="1S8K7_U0OwWZwSi6VsP5-81">
