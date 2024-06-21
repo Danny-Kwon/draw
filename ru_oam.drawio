@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T01:30:09.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pJooSxfycY_nQBdfWnkI" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T01:43:14.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WY9okQJhsBKm-S_avUsx" version="24.5.5" type="github">
   <diagram name="페이지-1" id="96o0bzrnb4CfKmLUjBDD">
-    <mxGraphModel dx="8309" dy="4507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6791" dy="3718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-97" value="send_sfp_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SEk_vcrLtVBXIxyY5RiW-5" target="1S8K7_U0OwWZwSi6VsP5-58">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-97" value="send_sfp_config&lt;div&gt;init_time_sync&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SEk_vcrLtVBXIxyY5RiW-5" target="1S8K7_U0OwWZwSi6VsP5-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="970" y="90" />
@@ -162,8 +162,6 @@
               <mxPoint x="760" y="1220" />
               <mxPoint x="-640" y="1220" />
               <mxPoint x="-640" y="700" />
-              <mxPoint x="-850" y="700" />
-              <mxPoint x="-850" y="666" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -244,9 +242,8 @@
             <mxPoint x="-150" y="230" as="sourcePoint" />
             <mxPoint x="-20" y="-212.99999999999977" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-140" y="10" />
-              <mxPoint x="-90" y="10" />
-              <mxPoint x="-90" y="-213" />
+              <mxPoint x="-90" y="200" />
+              <mxPoint x="-90" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -273,21 +270,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-127" value="&lt;div&gt;do_oam_alloc_one_mbuf&lt;/div&gt;add_one_sub_msg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-127" value="&lt;div&gt;do_oam_alloc_one_mbuf&lt;/div&gt;add_one_sub_msg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="1S8K7_U0OwWZwSi6VsP5-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-580" y="547" as="sourcePoint" />
             <mxPoint x="-1031" y="547" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1020" y="547" />
-              <mxPoint x="-1020" y="547" />
+              <mxPoint x="-700" y="580" />
+              <mxPoint x="-700" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-132" value="&lt;div&gt;add_one_generic_msg_container&lt;br&gt;&lt;/div&gt;&lt;div&gt;do_oam_put_one_mbuf&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-13" target="1S8K7_U0OwWZwSi6VsP5-22">
           <mxGeometry x="0.1024" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-760" y="620" />
-              <mxPoint x="-760" y="910" />
+              <mxPoint x="-650" y="910" />
+              <mxPoint x="-650" y="910" />
             </Array>
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -301,7 +298,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-13" value="&lt;div&gt;change_work_dir()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;parse_config_file()&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;is_title_line()&lt;/div&gt;&lt;div&gt;parse_cfg_line_by_section_title()&lt;/div&gt;&lt;div&gt;get_section_title_idx()&lt;/div&gt;&lt;div&gt;parse_cfg_board_info()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_log_forwarder()&lt;/div&gt;&lt;div&gt;get_child_process_mgr()&lt;/div&gt;&lt;div&gt;parse_json_path_info()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;parse_cfg_msg_req_list()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;br&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_llist()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;do_trim()&lt;/div&gt;&lt;div&gt;parse_msg_list_line_value()&lt;/div&gt;&lt;div&gt;set_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_oam_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;do_put_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;pcsc_open_channel_fake()&lt;/div&gt;&lt;div&gt;pcsc_open_channel()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_free_one_mbuf()&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_oam_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do_alloc_one_mbuf()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;do_put_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;get_loopback_flag()&lt;/div&gt;&lt;div&gt;pcsc_open_channel_fake()&lt;/div&gt;&lt;div&gt;pcsc_open_channel()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_free_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;get_send_msg_id_list_len()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_send_msg_id_list()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;get_json_file_path()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="179" width="470" height="951" as="geometry" />
+          <mxGeometry x="-580" y="179" width="440" height="951" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-16" value="change_work_dir" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry relative="1" as="geometry">
@@ -316,7 +313,7 @@
           <mxGeometry x="-1056" y="1323" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-21" value="utils/src/oam_utils.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1490" y="336" width="150" height="60" as="geometry" />
+          <mxGeometry x="-1430" y="337" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-26" value="create_link_list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-25">
           <mxGeometry relative="1" as="geometry">
@@ -351,7 +348,7 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-85" value="oam_system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-81">
           <mxGeometry x="0.1144" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-840" y="580" />
+              <mxPoint x="-840" y="500" />
               <mxPoint x="-840" y="-620" />
               <mxPoint x="860" y="-620" />
               <mxPoint x="860" y="-100" />
@@ -362,8 +359,6 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-86" value="get_log_fp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-830" y="640" />
-              <mxPoint x="-830" y="680" />
               <mxPoint x="-620" y="680" />
               <mxPoint x="-620" y="1190" />
               <mxPoint x="730" y="1190" />
@@ -374,7 +369,7 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-122" value="create_router_item&lt;div&gt;send_req_block&lt;/div&gt;&lt;div&gt;send_req_unblock&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-109">
           <mxGeometry x="-0.0271" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1280" y="-280" />
+              <mxPoint x="-1260" y="-280" />
               <mxPoint x="-1500" y="-280" />
             </Array>
             <mxPoint as="offset" />
@@ -388,13 +383,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-126" value="&lt;div&gt;do_oam_alloc_one_mbuf&lt;/div&gt;add_one_sub_msg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-126" value="&lt;div&gt;do_oam_alloc_one_mbuf&lt;/div&gt;add_one_sub_msg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1031" y="511" as="sourcePoint" />
             <mxPoint x="-580" y="511" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-990" y="511" />
-              <mxPoint x="-990" y="511" />
+              <mxPoint x="-700" y="620" />
+              <mxPoint x="-700" y="620" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -402,8 +397,8 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-133" value="&lt;div&gt;add_one_generic_msg_container&lt;br&gt;&lt;/div&gt;&lt;div&gt;do_oam_put_one_mbuf&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-22" target="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry x="-0.3907" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-880" y="850" />
-              <mxPoint x="-880" y="600" />
+              <mxPoint x="-710" y="850" />
+              <mxPoint x="-710" y="850" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -435,7 +430,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-22" value="&lt;div&gt;oam_init()&lt;/div&gt;init_response_router()&lt;div&gt;create_resp_router_table()&lt;/div&gt;&lt;div&gt;create_link_list()&lt;/div&gt;&lt;div&gt;set_response_router()&lt;/div&gt;&lt;div&gt;oam_mem_init()&lt;/div&gt;&lt;div&gt;init_oam_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_aom_handle_buf_info()&lt;/div&gt;&lt;div&gt;get_tlv_mem_info()&lt;/div&gt;&lt;div&gt;init_tlv_mem()&lt;/div&gt;&lt;div&gt;get_tag_graph_mem_info()&lt;/div&gt;&lt;div&gt;init_tag_list_mem()&lt;/div&gt;&lt;div&gt;create_p19_tag_graph()&lt;/div&gt;&lt;div&gt;parse_config_file()&lt;/div&gt;&lt;div&gt;oam_system()&lt;/div&gt;&lt;div&gt;get_log_fp()&lt;/div&gt;&lt;div&gt;do_rfic_init()&lt;/div&gt;&lt;div&gt;create_router_item()&lt;/div&gt;&lt;div&gt;send_req_block()&lt;/div&gt;&lt;div&gt;get_response_router()&lt;/div&gt;&lt;div&gt;add_item_to_router_list()&lt;/div&gt;&lt;div&gt;link_list_insert_tail()&lt;/div&gt;&lt;div&gt;send_req_unblock()&lt;/div&gt;&lt;div&gt;oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;oam_one_put_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;wait_oam_response()&lt;/div&gt;&lt;div&gt;delete_item_from_router_list()&lt;/div&gt;&lt;div&gt;link_list_delete_by_elem()&lt;/div&gt;&lt;div&gt;detroy_router_item()&lt;/div&gt;&lt;div&gt;send_req_unblock()&lt;/div&gt;&lt;div&gt;&lt;div&gt;oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_alloc_one_mbuf()&lt;/div&gt;&lt;div&gt;add_one_sub_msg()&lt;/div&gt;&lt;div&gt;add_one_generic_msg_container()&lt;/div&gt;&lt;div&gt;oam_one_put_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_put_one_mbuf()&lt;/div&gt;&lt;div&gt;oam_free_one_mbuf()&lt;/div&gt;&lt;div&gt;do_oam_free_one_mbuf()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;do_send_oam_msg()&lt;/div&gt;&lt;div&gt;get_send_msg_register_table_len()&lt;/div&gt;&lt;div&gt;get_send_msg_register_table()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1490" y="397" width="459" height="733" as="geometry" />
+          <mxGeometry x="-1430" y="397" width="340" height="733" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-23" value="oam_init" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SEk_vcrLtVBXIxyY5RiW-3" target="1S8K7_U0OwWZwSi6VsP5-22">
           <mxGeometry relative="1" as="geometry">
@@ -443,7 +438,7 @@
               <mxPoint x="-70" y="420" />
               <mxPoint x="-70" y="1140" />
               <mxPoint x="-600" y="1140" />
-              <mxPoint x="-600" y="610" />
+              <mxPoint x="-600" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -473,15 +468,15 @@
           <mxGeometry x="-1947" y="467" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-28" value="msg_enc_dec/tlv_utils/src/tlv_operation.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1416" y="1140" width="320" height="80" as="geometry" />
+          <mxGeometry x="-1468" y="1180" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-35" value="init_key_list_mem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-29" target="1S8K7_U0OwWZwSi6VsP5-34">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1410" y="1160" as="sourcePoint" />
             <mxPoint x="-1590" y="1160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1500" y="1340" />
-              <mxPoint x="-1500" y="1340" />
+              <mxPoint x="-1510" y="1380" />
+              <mxPoint x="-1510" y="1380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -496,13 +491,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-29" value="&lt;div&gt;init_tlv_mem()&lt;/div&gt;&lt;div&gt;get_tlv_mem_mgr()&lt;/div&gt;&lt;div&gt;init_key_list_mem()&lt;/div&gt;&lt;div&gt;tlv_mem_reset()&lt;/div&gt;&lt;div&gt;get_tlv_mem_mgr()&lt;/div&gt;&lt;div&gt;get_key_list_mem_mgr()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-1416" y="1220" width="320" height="320" as="geometry" />
+          <mxGeometry x="-1468" y="1260" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-33" value="msg_enc_dec/tlv_utils/src/key_list&lt;span style=&quot;background-color: initial;&quot;&gt;.c&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1930" y="1140" width="320" height="80" as="geometry" />
+          <mxGeometry x="-2150" y="1169" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-34" value="&lt;div&gt;init_key_list_mem()&lt;/div&gt;&lt;div&gt;get_key_list_mem_mgr()&lt;/div&gt;&lt;div&gt;get_key_list_mem_mgr()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-1930" y="1220" width="320" height="320" as="geometry" />
+          <mxGeometry x="-2150" y="1249" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-38" value="msg_enc_dec/api_msg_proc/src/tag_utils.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-2713" y="360" width="320" height="80" as="geometry" />
@@ -638,7 +633,7 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-57" value="utils/src/oam_config.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-560" y="-530" width="168" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-100" value="send_sfp_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="SEk_vcrLtVBXIxyY5RiW-5">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-100" value="send_sfp_config&lt;div&gt;init_time_sync&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="SEk_vcrLtVBXIxyY5RiW-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-270" y="-9" />
@@ -653,7 +648,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-640" y="-220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-650" y="-60" />
+              <mxPoint x="-610" y="-60" />
+              <mxPoint x="-610" y="-1040" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -666,7 +662,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-119" value="send_i2c_write_req_wait_resp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-109">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-119" value="&lt;div&gt;get_ru_init_req_storage&lt;/div&gt;send_i2c_write_req_wait_resp&lt;div&gt;get_ru_sw_config_req_storage&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-109">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-330" y="-800" />
@@ -674,7 +670,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_key_table()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;do_config_sfp()&lt;/div&gt;&lt;div&gt;get_oam_config_board_type()&lt;/div&gt;&lt;div&gt;get_sfp_i2c_addr()&lt;/div&gt;&lt;div&gt;get_sfp_cfg_setting()&lt;/div&gt;&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-154" value="get_oam_sync_mgmt_ctx" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="-260" />
+              <mxPoint x="-240" y="-260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-58" value="get_oam_config()&lt;div&gt;send_sfp_config()&lt;/div&gt;&lt;div&gt;parse_json_file()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_key_table()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;do_config_sfp()&lt;/div&gt;&lt;div&gt;get_oam_config_board_type()&lt;/div&gt;&lt;div&gt;get_sfp_i2c_addr()&lt;/div&gt;&lt;div&gt;get_sfp_cfg_setting()&lt;/div&gt;&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;get_oam_config()&lt;/div&gt;&lt;div&gt;init_time_sync()&lt;/div&gt;&lt;div&gt;get_ru_sw_config_req_storage()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="-450" width="242" height="562" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-64" value="get_oam_config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-58" target="1S8K7_U0OwWZwSi6VsP5-13">
@@ -688,15 +692,23 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-65" value="oam_process/src/oam_child_process.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-5" y="-360" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-66" value="get_child_process_mgr()&lt;div&gt;oam_execute_child_process()&lt;/div&gt;&lt;div&gt;child_process_main()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;wait_child_process_exit()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-155" value="get_oam_sync_mgmt_ctx" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-66" target="1S8K7_U0OwWZwSi6VsP5-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="-230" />
+              <mxPoint x="-240" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-66" value="get_child_process_mgr()&lt;div&gt;oam_execute_child_process()&lt;/div&gt;&lt;div&gt;child_process_main()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;wait_child_process_exit()&lt;/div&gt;&lt;div&gt;get_child_process_log_path()&lt;/div&gt;&lt;div&gt;get_oam_sync_mgmt_ctx()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-280" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-68" value="get_child_process_mgr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-66" target="1S8K7_U0OwWZwSi6VsP5-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-190" y="280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-30" y="-190" />
-              <mxPoint x="-30" y="230" />
+              <mxPoint x="-60" y="20" />
+              <mxPoint x="-60" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -735,7 +747,7 @@
               <mxPoint x="890" y="-120" />
               <mxPoint x="890" y="-650" />
               <mxPoint x="-860" y="-650" />
-              <mxPoint x="-860" y="560" />
+              <mxPoint x="-860" y="480" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -764,7 +776,8 @@
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-103" value="parse_json_file" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-102" target="1S8K7_U0OwWZwSi6VsP5-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-690" y="-40" />
+              <mxPoint x="-640" y="-980" />
+              <mxPoint x="-640" y="-40" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -798,7 +811,7 @@
           <mxGeometry x="-1096" y="-1120" width="242" height="242" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-108" value="utils/src/sub_msg_assemble.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1534" y="-1161" width="230" height="80" as="geometry" />
+          <mxGeometry x="-1639" y="-1541" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-111" value="get_ru_init_req_storage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-109" target="1S8K7_U0OwWZwSi6VsP5-102">
           <mxGeometry relative="1" as="geometry">
@@ -808,11 +821,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-120" value="send_i2c_write_req_wait_resp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-109" target="1S8K7_U0OwWZwSi6VsP5-58">
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-120" value="&lt;div&gt;get_ru_init_req_storage&lt;/div&gt;send_i2c_write_req_wait_resp&lt;div&gt;get_ru_sw_config_req_storage&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S8K7_U0OwWZwSi6VsP5-109" target="1S8K7_U0OwWZwSi6VsP5-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1440" y="-780" />
-              <mxPoint x="-380" y="-780" />
+              <mxPoint x="-1440" y="-750" />
+              <mxPoint x="-380" y="-750" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -822,13 +835,13 @@
             <mxPoint x="-949.9999999999991" y="290" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-1530" y="-221" />
-              <mxPoint x="-1310" y="-221" />
+              <mxPoint x="-1280" y="-221" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1S8K7_U0OwWZwSi6VsP5-109" value="get_ru_init_req_storage()&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;send_req_wait_resp()&lt;/div&gt;&lt;div&gt;create_router_item()&lt;/div&gt;&lt;div&gt;send_req_block()&lt;/div&gt;&lt;div&gt;destroy_router_item()&lt;/div&gt;&lt;div&gt;send_req_unblock()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-1540" y="-1081" width="242" height="242" as="geometry" />
+        <mxCell id="1S8K7_U0OwWZwSi6VsP5-109" value="get_ru_init_req_storage()&lt;div&gt;send_i2c_write_req_wait_resp()&lt;/div&gt;&lt;div&gt;send_req_wait_resp()&lt;/div&gt;&lt;div&gt;create_router_item()&lt;/div&gt;&lt;div&gt;send_req_block()&lt;/div&gt;&lt;div&gt;destroy_router_item()&lt;/div&gt;&lt;div&gt;send_req_unblock()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_init_req_storage()&lt;/div&gt;&lt;div&gt;get_ru_sw_config_req_storage()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1750" y="-1461" width="452" height="622" as="geometry" />
         </mxCell>
         <mxCell id="1S8K7_U0OwWZwSi6VsP5-114" value="utils/src/oam_msg_json_parse.c" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-1710" y="-210" width="230" height="80" as="geometry" />
