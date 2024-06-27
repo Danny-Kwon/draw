@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T02:13:12.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="x3rz-8PW05f8bhCFg3WP" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T04:26:55.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="L3NPiFLbKDdZ3FkASN0R" version="24.6.2" type="github">
   <diagram name="페이지-1" id="E6UPQZIl04d6rFCwypSz">
-    <mxGraphModel dx="2012" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="p4UfhssnJtroajR0v_AX-5" value="DU(Distributed Unit)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="600" width="440" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="p4UfhssnJtroajR0v_AX-6" value="MAC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="p4UfhssnJtroajR0v_AX-6" value="MAC(Media Access Control)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="640" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-7" value="High PHY" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
