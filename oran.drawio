@@ -1,29 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T01:49:42.928Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xQEzFtYdqpTszyELLc9Q" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T02:04:51.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="4hpCsDlbTkaHisdADha1" version="24.6.2" type="github">
   <diagram name="페이지-1" id="E6UPQZIl04d6rFCwypSz">
-    <mxGraphModel dx="1826" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2012" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p4UfhssnJtroajR0v_AX-12" value="BackHaul" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p4UfhssnJtroajR0v_AX-1" target="p4UfhssnJtroajR0v_AX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-1" value="Core network" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="200" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4UfhssnJtroajR0v_AX-14" value="MidHaul" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p4UfhssnJtroajR0v_AX-2" target="p4UfhssnJtroajR0v_AX-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-2" value="CU(Central Unit)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="360" width="440" height="160" as="geometry" />
         </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-3" value="PDCP(Packet-Data Convergence Protocol)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="400" width="120" height="100" as="geometry" />
+          <mxGeometry x="390" y="400" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-4" value="RRC(Radio Resource Control)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="400" width="120" height="100" as="geometry" />
+          <mxGeometry x="250" y="400" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p4UfhssnJtroajR0v_AX-15" value="FrontHaul" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p4UfhssnJtroajR0v_AX-5" target="p4UfhssnJtroajR0v_AX-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-5" value="DU(Distributed Unit)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="600" width="440" height="160" as="geometry" />
         </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-6" value="MAC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="640" width="120" height="100" as="geometry" />
+          <mxGeometry x="390" y="640" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-7" value="High PHY" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="640" width="120" height="100" as="geometry" />
+          <mxGeometry x="530" y="640" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-8" value="RU(Radio Unit)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="840" width="440" height="160" as="geometry" />
@@ -35,7 +44,10 @@
           <mxGeometry x="390" y="880" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p4UfhssnJtroajR0v_AX-11" value="RLC(Radio Link Control)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="640" width="120" height="100" as="geometry" />
+          <mxGeometry x="250" y="640" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p4UfhssnJtroajR0v_AX-16" value="RRC: Radio bearer(무선 자원을 주고 받기 위한 통로) 설정, 해제 및 제어 메시지 생성, 전달, 관리 담당. RRC는 무선 기지국인 eNB와 단말 사이의 연결을 관리하는 프로토콜로, 단말은기지국과 최초 통신하기 위해 신호를 보내 RRC 메시지를 주고받으며 연결되면 기지국에게 자원을 할당받을 수 있다.&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="200" width="480" height="800" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
